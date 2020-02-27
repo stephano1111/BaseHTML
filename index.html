@@ -4,52 +4,61 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Hola que pez</title>
+    <title>Hoja de presentación</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="background/cover.css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Cuantic</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="p-3 mb-2 bg-dark text-white">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+      <!-- Navbar -->
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="assets/IconS.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Presentación
+        </a>
+      </nav>
+
+      <!-- Cards de información de estudios -->
+      <div class="card-group">
+        <div class="card">
+          <img src="assets/SC.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="p-3 mb-2 bg-dark text-white">
+              <h5 class="card-title">Estudios</h5>
+              <p class="card-text">Ingeniería en sistemas computacionales.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/Cuant.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="p-3 mb-2 bg-dark text-white">
+              <h5 class="card-title">Intereses de posgrado</h5>
+              <p class="card-text">La computación cuántica que es una rama nueva en la computación.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/UniIb.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="p-3 mb-2 bg-dark text-white">
+              <h5 class="card-title">Licenciatura</h5>
+              <p class="card-text">Universidad Ibero Puebla, área de ingenierías.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
 
-    <h1>Hola mundo</h1>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+    </div>
 
   </body>
 
